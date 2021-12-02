@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\tiago.oliveira\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express mogan
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files\AdoptOpenJDK\jre-8.0.292.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-8u302-b08\bin;C:\Users\tiago.oliveira\AppData\Local\Android\Sdk\platform-tools;C:\Users\tiago.oliveira\AppData\Local\Microsoft\WindowsApps;C:\Users\tiago.oliveira\AppData\Roaming\npm;C:\Users\tiago.oliveira\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mogan: Not found
+      at Request.params.callback [as _callback] (C:\Users\tiago.oliveira\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\tiago.oliveira\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (C:\Users\tiago.oliveira\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (C:\Users\tiago.oliveira\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "ws",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
